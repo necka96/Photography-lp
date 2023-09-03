@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- header -->
+      <header class="d-flex header">
+        <div
+          class="text-content"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <div>
+            <h1>Photography</h1>
+            <p>
+              Welcome to the world of visual storytelling. At our core, we are
+              passionate about freezing time, seizing every smile, tear, and
+              burst of joy within a single frame. Our gallery is a testament to
+              our diverse portfolio, ranging from portraits and landscapes to
+              street photography and artistic experiments.
+            </p>
+            <p>
+              Whether you're seeking a professional photographer to document
+              life's special moments or simply exploring the art of photography,
+              our lens is here to capture the essence of your world.
+            </p>
+            <a href="#about" class="btn">Get Started</a>
+          </div>
+        </div>
+        <div class="img-container">
+          <img
+            src="./assets/banner.jpg"
+            alt="banner"
+            class="img-fluid"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          />
+        </div>
+      </header>
+      <!-- section-one -->
+      <sction class="sction d-flex">
+        <div class="img-container">
+          <img
+            src="./assets/spotlight01.jpg"
+            alt="sportlight"
+            class="img-fluid"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          />
+        </div>
+        <div class="text-content" data-aos="fade-left" data-aos-duration="1500">
+          <div>
+            <h2>Capturing Emotions</h2>
+            <p>
+              Our mission is to capture not just images but emotions frozen in
+              time. We believe in the power of photography to convey the
+              subtlest of feelings, and our lens is our storyteller. Each click
+              is an invitation to explore the depth of human connection, the
+              beauty of nature, and the intricate details that often go
+              unnoticed.
+            </p>
+            <a href="#about" class="btn">Learn more</a>
+          </div>
+        </div>
+      </sction>
+      <!-- section two -->
+      <sction class="sction d-flex">
+        <div
+          class="text-content"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <div>
+            <h2>Creative Excellence</h2>
+            <p>
+              Beyond mere documentation, we strive for creative excellence in
+              every shot. Our photographers are artists in their own right,
+              weaving a visual tapestry with each click. We push the boundaries
+              of conventional photography, embracing new techniques, and
+              experimenting with light, color, and composition to create
+              visually stunning and unique images.
+            </p>
+            <a href="#about" class="btn">Learn more</a>
+          </div>
+        </div>
+        <div class="img-container">
+          <img
+            src="./assets/spotlight02.jpg"
+            alt="sportlight"
+            class="img-fluid"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          />
+        </div>
+      </sction>
+      <!-- section three -->
+      <sction class="sction d-flex">
+        <div class="img-container">
+          <img
+            src="./assets/spotlight03.jpg"
+            alt="sportlight"
+            class="img-fluid"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          />
+        </div>
+        <div
+          class="text-content content-3"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <div>
+            <h2>Capturing Emotions</h2>
+            <p>
+              Our mission is to capture not just images but emotions frozen in
+              time. We believe in the power of photography to convey the
+              subtlest of feelings, and our lens is our storyteller. Each click
+              is an invitation to explore the depth of human connection, the
+              beauty of nature, and the intricate details that often go
+              unnoticed.
+            </p>
+            <a href="#about" class="btn">Learn more</a>
+          </div>
+        </div>
+      </sction>
+      <!-- gallery -->
+      <section class="gallery">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Gallery</h2>
+        <p data-aos="fade-up" data-aos-duration="1500">
+          Explore our captivating gallery and immerse yourself in a visual
+          journey. <br />
+          Each photograph tells a unique story, a frozen moment in time waiting
+          to be discovered
+        </p>
+        <div class="gallery-container">
+          <img
+            src="./assets/gallery-1.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-1"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-2.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-2"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-large-1.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-3"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-3.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-4"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-4.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-5"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-5.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-6"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-large-2.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-7"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-6.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-8"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          />
+          <img
+            src="./assets/gallery-7.jpg"
+            onclick="getImage(this.src)"
+            alt="gallery-9"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          />
+        </div>
+        <div class="fullimage">
+          <img src="" id="image" alt="galley" />
+          <span class="close"
+            ><img src="./assets/close.png" id="close" alt="close"
+          /></span>
+        </div>
+      </section>
+
+      <!-- servicis -->
+      <section class="services">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Our services</h2>
+        <p data-aos="fade-up" data-aos-duration="1500">
+          Our services encompass a wide spectrum of photography needs, from
+          elegant event coverage to captivating portrait sessions. We specialize
+          in transforming your vision into stunning visual narratives, ensuring
+          every moment is immortalized in the most exquisite way
+        </p>
+        <div class="services-grid-container">
+          <div class="item" data-aos="fade-right" data-aos-duration="1500">
+            <div class="icon">
+              <img src="./assets/camera-lens.png" alt="camera-lens" />
+            </div>
+            <div class="item-text">
+              <h3>Portraits</h3>
+              <p>
+                Our skilled photographers specialize in capturing the essence of
+                individuals, from professional headshots to personal portraits
+              </p>
+            </div>
+          </div>
+          <div class="item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="icon">
+              <img src="./assets/balloons.png" alt="balloons" />
+            </div>
+            <div class="item-text">
+              <h3>Event Coverage</h3>
+              <p>
+                Let us be your event's visual storyteller. We cover weddings,
+                parties, and corporate events, preserving every special moment
+              </p>
+            </div>
+          </div>
+          <div class="item" data-aos="fade-left" data-aos-duration="1500">
+            <div class="icon">
+              <img src="./assets/mountain.png" alt="mountain" />
+            </div>
+            <div class="item-text">
+              <h3>Nature & Landscapes</h3>
+              <p>
+                Immerse yourself in the beauty of the natural world. Our
+                landscape photography transports you to breathtaking
+                destinations
+              </p>
+            </div>
+          </div>
+          <div class="item" data-aos="fade-right" data-aos-duration="1500">
+            <div class="icon">
+              <img src="./assets/shopping-online.png" alt="shopping-online" />
+            </div>
+            <div class="item-text">
+              <h3>Product Photography</h3>
+              <p>
+                Showcase your products with stunning visuals. We create
+                compelling images that drive sales and engage your audience
+              </p>
+            </div>
+          </div>
+          <div class="item" data-aos="fade-up" data-aos-duration="1500">
+            <div class="icon">
+              <img src="./assets/pallete.png" alt="pallete" />
+            </div>
+            <div class="item-text">
+              <h3>Fine Art Photography:</h3>
+              <p>
+                Elevate your space with our fine art prints. Discover a world of
+                artistic expression in our carefully curated collection
+              </p>
+            </div>
+          </div>
+          <div class="item" data-aos="fade-left" data-aos-duration="1500">
+            <div class="icon">
+              <img src="./assets/star.png" alt="star" />
+            </div>
+            <div class="item-text">
+              <h3>Photo Editing Services</h3>
+              <p>
+                Perfect your photos with our professional editing services. We
+                enhance and retouch images to make them truly exceptional
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- customres testimonial -->
+      <section class="testimonial">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Testimonials</h2>
+        <div
+          class="testimonial-contianer"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <div class="swiper customer">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-content">
+                  <div class="customer-img">
+                    <img src="./assets/woman-2.jpg" alt="emily" />
+                  </div>
+                  <div class="cutomer-text">
+                    <h3>Emily D</h3>
+                    <p>
+                      "I was blown away by the professionalism and creativity of
+                      the team. They captured my wedding day in such a beautiful
+                      and authentic way. Every photo is a cherished memory, and
+                      I couldn't be happier with their services"
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-content">
+                  <div class="customer-img">
+                    <img src="./assets/male-1.jpg" alt="David S" />
+                  </div>
+                  <div class="cutomer-text">
+                    <h3>David S</h3>
+                    <p>
+                      "I needed headshots for my business, and they delivered
+                      beyond my expectations. The attention to detail and their
+                      ability to make me feel comfortable in front of the camera
+                      truly sets them apart. I highly recommend their services."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-content">
+                  <div class="customer-img">
+                    <img src="./assets/woman-1.jpg" alt="Sarah L" />
+                  </div>
+                  <div class="cutomer-text">
+                    <h3>Sarah L</h3>
+                    <p>
+                      "Their landscape photography is breathtaking. I purchased
+                      one of their prints, and it's now the centerpiece of my
+                      living room. The quality and artistry are top-notch. I'll
+                      definitely be a repeat customer."
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial-content">
+                  <div class="customer-img">
+                    <img src="./assets/male-2.jpg" alt="Sarah L" />
+                  </div>
+                  <div class="cutomer-text">
+                    <h3>James R</h3>
+                    <p>
+                      "As a family, we wanted to capture some candid moments
+                      together. The photographer was incredibly patient and made
+                      us feel at ease. The results were stunning, and we'll
+                      treasure these photos forever. Thank you for the wonderful
+                      experience!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="contact">
+        <h2 data-aos="fade-up" data-aos-duration="1500">Contact Us</h2>
+        <form class="form" data-aos="fade-up" data-aos-duration="1500">
+          <div class="d-flex">
+            <input
+              type="text"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="d-flex">
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+          <div class="d-flex">
+            <button>Send Message</button>
+          </div>
+        </form>
+        <p class="form-text"></p>
+      </section>
+
+      <footer>
+        <p class="text-content">
+          Copyright © <span id="date"></span> All rights reserved | This
+          template is made with ♥ by
+          <a href="https://www.necka96.com" target="_blank"
+            >Nemanja Djordjevic</a
+          >
+        </p>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
