@@ -354,6 +354,9 @@ footer p {
     width: 80%;
     object-fit: cover;
   }
+  .fullimage .close{
+    top: 0.5rem
+  }
 }
 @media (max-width: 768px) {
   .gallery .gallery-container,
